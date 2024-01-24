@@ -7,7 +7,7 @@
 1. Extract:-
     - Connect:- Connect to required Data source and extract the data
 2. Transform:-
-    - Data flow grapgh:- Transformation executes on Spark, without any knowhow of Spark programming. 
+    - Data flow graph:- Transformation executes on Spark, without any knowhow of Spark programming. 
     - Code Transformation:- transform using HDInsight, SPark, Data Lake Analytics and machine learning
 3. Load:-
     - Coonect:- connect to required data sink and load the data
