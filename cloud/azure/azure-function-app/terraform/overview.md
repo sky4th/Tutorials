@@ -5,21 +5,21 @@ prev:
 ```
 # Chapter 2.1: Deployement using Terraform 
 
-## 2.1.1 Lets deploy a function app  **Using docker Image**. 
-the resources required are
-### Storage Account
-Function App Storage: Azure Function Apps use a Storage Account to store various types of data, including execution logs, application settings, and temporary files. This storage is essential for the functioning of the app.
+## Let's deploy a function app  **Using docker Image**. 
+## Resources required are
+## 1. Storage Account
+- Function App Storage: Azure Function Apps use a Storage Account to store various types of data, including execution logs, application settings, and temporary files. This storage is essential for the functioning of the app.
 
-Triggers and Bindings: Function Apps often use triggers and bindings to interact with external resources like Azure Blob Storage, Azure Queue Storage, or Azure Table Storage. These triggers and bindings require access to a Storage Account for configuration and operation.
+- Triggers and Bindings: Function Apps often use triggers and bindings to interact with external resources like Azure Blob Storage, Azure Queue Storage, or Azure Table Storage. These triggers and bindings require access to a Storage Account for configuration and operation.
 
-Durable Functions: Durable Functions, an extension of Azure Functions, rely heavily on Azure Storage for managing orchestration state and managing durable entities. A Storage Account is required to support the underlying storage requirements of Durable Functions.
+- Durable Functions: Durable Functions, an extension of Azure Functions, rely heavily on Azure Storage for managing orchestration state and managing durable entities. A Storage Account is required to support the underlying storage requirements of Durable Functions.
 
-Dependency Injection: Some applications deployed as Function Apps might require access to external data or resources stored in a Storage Account. This could include configuration files, data files, or any other resources needed by the application.
+- Dependency Injection: Some applications deployed as Function Apps might require access to external data or resources stored in a Storage Account. This could include configuration files, data files, or any other resources needed by the application.
 
-Logging and Monitoring: Azure Function Apps generate logs and metrics during execution, which are often stored in a Storage Account for later analysis and monitoring. This helps developers and administrators understand the behavior and performance of their function apps.
+- Logging and Monitoring: Azure Function Apps generate logs and metrics during execution, which are often stored in a Storage Account for later analysis and monitoring. This helps developers and administrators understand the behavior and performance of their function apps.
 
-Overall, a Storage Account is a fundamental component in the Azure ecosystem, and Function Apps often leverage its capabilities for various purposes, including data storage, trigger mechanisms, state management, and logging.
-### keyvault and keyvault access policy
+- Overall, a Storage Account is a fundamental component in the Azure ecosystem, and Function Apps often leverage its capabilities for various purposes, including data storage, trigger mechanisms, state management, and logging.
+2. keyvault and keyvault access policy
 Azure Key Vault can be used with Azure Function Apps to securely store and manage sensitive information such as connection strings, API keys, passwords, and certificates. Here's how Key Vault can be used with Function Apps:
 
 Secrets Management: Azure Function Apps can retrieve secrets stored in Azure Key Vault during runtime. This allows you to store sensitive information separately from your code and configuration files, reducing the risk of exposure.
@@ -35,10 +35,10 @@ Automatic Rotation: Key Vault supports automatic rotation of secrets, allowing y
 Audit Logging: Azure Key Vault logs all access and management operations, providing detailed audit trails for compliance and security purposes. This allows you to track who accessed or modified secrets stored in the vault.
 
 Overall, leveraging Azure Key Vault with Azure Function Apps helps improve security, simplify secrets management, and ensure compliance with regulatory requirements by securely storing and managing sensitive information.
-### Private Endpoint
+3. Private Endpoint
 
-### Role Assignment
-### Azure Function App Settings
+4. Role Assignment
+5. Azure Function App Settings
 
 Azure Function App settings are configurations that control various aspects of your function app's behavior and execution environment. These settings can be managed through the Azure portal, Azure CLI, or ARM templates. Here's a brief overview of some common function app settings:
 
