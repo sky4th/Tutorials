@@ -10,6 +10,7 @@ prev:
 Before you can start building and deploying Azure Function Apps, you'll need an Azure account. If you don't have one already, you can sign up for a free Azure account at [azure.microsoft.com](https://azure.microsoft.com/).
 
 ## 2.2 Creating a Function App
+### 2.2.1 Using Azure Portal
 Once you have an Azure account, you can create a new Function App using the Azure portal or command-line tools. Follow these steps to create your first Function App:
 1. **Sign in to the Azure portal:** Navigate to [portal.azure.com](https://portal.azure.com/) and sign in with your Azure account credentials.
 2. **Create a new Function App:** Click on the "Create a resource" button (+) in the Azure portal, search for "Function App", and then click "Create" to start the creation process.
