@@ -1,3 +1,9 @@
+
+```
+title: Getting Started
+Next:
+prev:
+```
 # Chapter 2: Getting Started with Azure Function Apps
 
 ## 2.1 Setting Up Azure Account
