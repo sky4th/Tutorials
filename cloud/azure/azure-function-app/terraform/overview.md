@@ -20,19 +20,19 @@ prev:
 
 - Overall, a Storage Account is a fundamental component in the Azure ecosystem, and Function Apps often leverage its capabilities for various purposes, including data storage, trigger mechanisms, state management, and logging.
 ## 2. keyvault and keyvault access policy
-Azure Key Vault can be used with Azure Function Apps to securely store and manage sensitive information such as connection strings, API keys, passwords, and certificates. Here's how Key Vault can be used with Function Apps:
+- Azure Key Vault can be used with Azure Function Apps to securely store and manage sensitive information such as connection strings, API keys, passwords, and certificates. Here's how Key Vault can be used with Function Apps:
 
-Secrets Management: Azure Function Apps can retrieve secrets stored in Azure Key Vault during runtime. This allows you to store sensitive information separately from your code and configuration files, reducing the risk of exposure.
+- Secrets Management: Azure Function Apps can retrieve secrets stored in Azure Key Vault during runtime. This allows you to store sensitive information separately from your code and configuration files, reducing the risk of exposure.
 
-Secure Configuration: Instead of hardcoding sensitive information directly into your function app's code or configuration files, you can reference the secrets stored in Key Vault. This improves security by ensuring that sensitive data is not exposed in plaintext.
+- Secure Configuration: Instead of hardcoding sensitive information directly into your function app's code or configuration files, you can reference the secrets stored in Key Vault. This improves security by ensuring that sensitive data is not exposed in plaintext.
 
-Integration: Azure Function Apps can easily integrate with Azure Key Vault using managed identities or service principals. Managed identities allow Function Apps to authenticate with Key Vault without needing to manage explicit credentials.
+- Integration: Azure Function Apps can easily integrate with Azure Key Vault using managed identities or service principals. Managed identities allow Function Apps to authenticate with Key Vault without needing to manage explicit credentials.
 
-Access Control: Azure Key Vault provides granular access control, allowing you to define who can read, write, and manage secrets stored in the vault. This ensures that only authorized users and applications can access sensitive information.
+- Access Control: Azure Key Vault provides granular access control, allowing you to define who can read, write, and manage secrets stored in the vault. This ensures that only authorized users and applications can access sensitive information.
 
-Automatic Rotation: Key Vault supports automatic rotation of secrets, allowing you to periodically update sensitive information without modifying your function app's code. This helps improve security by reducing the risk of using stale or compromised credentials.
+- Automatic Rotation: Key Vault supports automatic rotation of secrets, allowing you to periodically update sensitive information without modifying your function app's code. This helps improve security by reducing the risk of using stale or compromised credentials.
 
-Audit Logging: Azure Key Vault logs all access and management operations, providing detailed audit trails for compliance and security purposes. This allows you to track who accessed or modified secrets stored in the vault.
+- Audit Logging: Azure Key Vault logs all access and management operations, providing detailed audit trails for compliance and security purposes. This allows you to track who accessed or modified secrets stored in the vault.
 
 Overall, leveraging Azure Key Vault with Azure Function Apps helps improve security, simplify secrets management, and ensure compliance with regulatory requirements by securely storing and managing sensitive information.
 ## 3. Private Endpoint
