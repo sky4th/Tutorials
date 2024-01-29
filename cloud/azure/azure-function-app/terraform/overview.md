@@ -5,12 +5,12 @@ prev:
 ```
 # Chapter 2.1: Deployement using Terraform 
 
-## 2.1.1 Use case
-Lets deploy a function app  **Using docker Image**. the resources required are
-1. Storage Account
-2. Private Endpoint Subnet
-3. Function app settings:-
-# Azure Function App Settings
+## 2.1.1 Lets deploy a function app  **Using docker Image**. 
+the resources required are
+### 1. Storage Account
+### 2. Private Endpoint Subnet
+### 3. Function app settings:-
+#### Azure Function App Settings
 
 Azure Function App settings are configurations that control various aspects of your function app's behavior and execution environment. These settings can be managed through the Azure portal, Azure CLI, or ARM templates. Here's a brief overview of some common function app settings:
 
