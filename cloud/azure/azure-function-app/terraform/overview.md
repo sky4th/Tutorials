@@ -7,18 +7,17 @@ prev:
 
 ## 2.1.1 Lets deploy a function app  **Using docker Image**. 
 the resources required are
-### 1. Storage Account
-### 2. Private Endpoint Subnet
-### 3. Function app settings:-
-#### Azure Function App Settings
+  - ### Storage Account
+  - ### Private Endpoint Subnet
+  - ### Azure Function App Settings
 
 Azure Function App settings are configurations that control various aspects of your function app's behavior and execution environment. These settings can be managed through the Azure portal, Azure CLI, or ARM templates. Here's a brief overview of some common function app settings:
 
-## 1. Application Settings
+  - #### 1. Application Settings
 
 These settings include configurations such as connection strings, app settings, and environment variables. They are used to store sensitive information like database connection strings or API keys securely.
 
-## 2. Runtime Settings
+  - #### 2. Runtime Settings
 
 Runtime settings define the execution environment for your function app, such as the version of the runtime stack (e.g., Node.js, .NET, Python) and the version of the Azure Functions runtime.
 
