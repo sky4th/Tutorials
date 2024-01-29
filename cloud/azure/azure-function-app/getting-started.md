@@ -17,7 +17,8 @@ Once you have an Azure account, you can create a new Function App using the Azur
 3. **Configure Function App settings:** Provide a unique name for your Function App, select your preferred subscription, resource group, and hosting plan. You can choose between the Consumption plan (pay-per-use) or the App Service plan (dedicated resources).
 4. **Choose runtime stack:** Select the runtime stack for your Function App. Azure supports multiple programming languages including C#, JavaScript, Python, and PowerShell.
 5. **Review and create:** Review your settings and click "Create" to provision the Function App.
-
+### 2.2.2 Using declarative languages
+1. **Terraform**
 ## 2.3 Writing Your First Function
 Once your Function App is created, you can start writing your first function. Azure provides a built-in code editor directly within the portal, or you can develop functions locally using your preferred development environment. Follow these steps to write and deploy your first function:
 1. **Navigate to Function App:** In the Azure portal, navigate to your newly created Function App.
