@@ -19,7 +19,7 @@ prev:
 - Logging and Monitoring: Azure Function Apps generate logs and metrics during execution, which are often stored in a Storage Account for later analysis and monitoring. This helps developers and administrators understand the behavior and performance of their function apps.
 
 - Overall, a Storage Account is a fundamental component in the Azure ecosystem, and Function Apps often leverage its capabilities for various purposes, including data storage, trigger mechanisms, state management, and logging.
-2. keyvault and keyvault access policy
+## 2. keyvault and keyvault access policy
 Azure Key Vault can be used with Azure Function Apps to securely store and manage sensitive information such as connection strings, API keys, passwords, and certificates. Here's how Key Vault can be used with Function Apps:
 
 Secrets Management: Azure Function Apps can retrieve secrets stored in Azure Key Vault during runtime. This allows you to store sensitive information separately from your code and configuration files, reducing the risk of exposure.
@@ -35,10 +35,10 @@ Automatic Rotation: Key Vault supports automatic rotation of secrets, allowing y
 Audit Logging: Azure Key Vault logs all access and management operations, providing detailed audit trails for compliance and security purposes. This allows you to track who accessed or modified secrets stored in the vault.
 
 Overall, leveraging Azure Key Vault with Azure Function Apps helps improve security, simplify secrets management, and ensure compliance with regulatory requirements by securely storing and managing sensitive information.
-3. Private Endpoint
+## 3. Private Endpoint
 
-4. Role Assignment
-5. Azure Function App Settings
+## 4. Role Assignment
+## 5. Azure Function App Settings
 
 Azure Function App settings are configurations that control various aspects of your function app's behavior and execution environment. These settings can be managed through the Azure portal, Azure CLI, or ARM templates. Here's a brief overview of some common function app settings:
 
