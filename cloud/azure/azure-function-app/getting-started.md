@@ -37,4 +37,4 @@ Functions in Azure can be triggered by various events or triggers such as HTTP r
 - **Event Grid Trigger:** Executes the function in response to events from Azure Event Grid.
 - **Service Bus Trigger:** Executes the function when a new message is received on a Service Bus queue or topic.
 
-In the next chapter, we'll dive deeper into writing and configuring functions for different triggers, and explore advanced features and scenarios for Azure Function Apps.
+In the next chapter, we'll dive deeper into deploying functions app.
