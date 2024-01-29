@@ -9,6 +9,7 @@ prev:
 the resources required are
   - ### Storage Account
   - ### Private Endpoint Subnet
+  
   - ### Azure Function App Settings
 
 Azure Function App settings are configurations that control various aspects of your function app's behavior and execution environment. These settings can be managed through the Azure portal, Azure CLI, or ARM templates. Here's a brief overview of some common function app settings:
